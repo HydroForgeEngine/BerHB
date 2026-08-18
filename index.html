@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BerHB - Homebrew Store</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="logo">
+        <span>🎮</span>
+        BerHB
+    </div>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#3ds">3DS</a>
+        <a href="#wii">Wii</a>
+        <a href="#apps">Apps</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+<section id="inicio" class="hero">
+
+    <div>
+
+        <p class="tag">HOME BREW STORE</p>
+
+        <h1>
+            Bem-vindo à<br>
+            <span>BerHB</span>
+        </h1>
+
+        <p class="description">
+            Uma loja simples para descobrir e baixar
+            homebrews para seus consoles.
+        </p>
+
+        <a href="#3ds" class="main-button">
+            Explorar Homebrews
+        </a>
+
+    </div>
+
+</section>
+
+
+<section class="search-section">
+
+    <input
+        type="text"
+        id="search"
+        placeholder="🔎 Procurar homebrew..."
+        autocomplete="off"
+    >
+
+</section>
+
+
+<section id="3ds" class="section">
+
+    <div class="section-title">
+
+        <div>
+            <p class="small-title">NINTENDO</p>
+            <h2>🎮 Nintendo 3DS</h2>
+        </div>
+
+    </div>
+
+
+    <div class="games" id="homebrew-list">
+
+        <!-- HOME BREW 1 -->
+
+        <article
+            class="card"
+            data-name="BerHB Tools"
+            data-platform="3DS"
+        >
+
+            <div class="icon">
+                🛠️
+            </div>
+
+            <div class="card-content">
+
+                <h3>BerHB Tools</h3>
+
+                <p>
+                    Ferramentas úteis para usuários
+                    de homebrew.
+                </p>
+
+                <div class="info">
+
+                    <span>3DS</span>
+                    <span>v1.0</span>
+
+                </div>
+
+                <a
+                    class="download"
+                    href="homebrews/berhb-tools/BerHB-Tools.3dsx"
+                    download
+                >
+                    ⬇️ Baixar
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- HOME BREW 2 -->
+
+        <article
+            class="card"
+            data-name="Meu Homebrew"
+            data-platform="3DS"
+        >
+
+            <div class="icon">
+                🚀
+            </div>
+
+            <div class="card-content">
+
+                <h3>Meu Homebrew</h3>
+
+                <p>
+                    Um aplicativo de exemplo
+                    para Nintendo 3DS.
+                </p>
+
+                <div class="info">
+
+                    <span>3DS</span>
+                    <span>v1.0</span>
+
+                </div>
+
+                <a
+                    class="download"
+                    href="homebrews/meu-homebrew/MeuHomebrew.3dsx"
+                    download
+                >
+                    ⬇️ Baixar
+                </a>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+
+<section id="wii" class="section">
+
+    <div class="section-title">
+
+        <div>
+            <p class="small-title">NINTENDO</p>
+            <h2>🎮 Wii</h2>
+        </div>
+
+    </div>
+
+
+    <div class="games">
+
+        <article class="card">
+
+            <div class="icon">
+                🕹️
+            </div>
+
+            <div class="card-content">
+
+                <h3>Meu Homebrew Wii</h3>
+
+                <p>
+                    Aplicativo homebrew para Wii.
+                </p>
+
+                <div class="info">
+
+                    <span>Wii</span>
+                    <span>.dol</span>
+
+                </div>
+
+                <a
+                    class="download"
+                    href="homebrews/wii/meu-homebrew.dol"
+                    download
+                >
+                    ⬇️ Baixar
+                </a>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<section id="apps" class="section">
+
+    <div class="section-title">
+
+        <div>
+            <p class="small-title">BERHB</p>
+            <h2>📱 Aplicativos</h2>
+        </div>
+
+    </div>
+
+
+    <div class="games">
+
+        <article class="card">
+
+            <div class="icon">
+                📦
+            </div>
+
+            <div class="card-content">
+
+                <h3>BerHB Downloader</h3>
+
+                <p>
+                    Cliente para baixar homebrews
+                    diretamente da BerHB.
+                </p>
+
+                <div class="info">
+
+                    <span>App</span>
+                    <span>v1.0</span>
+
+                </div>
+
+                <button class="download disabled">
+                    Em breve
+                </button>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+
+<section id="not-found" class="not-found">
+
+    <h2>😕 Nenhum resultado</h2>
+
+    <p>
+        Não encontramos nenhum homebrew com esse nome.
+    </p>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-logo">
+        🎮 BerHB
+    </div>
+
+    <p>
+        Homebrew Store • Feito para a comunidade
+    </p>
+
+    <p class="copyright">
+        © 2026 BerHB
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
